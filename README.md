@@ -9,7 +9,7 @@ This repository demonstrates an issue with webpack and babel-loader when using d
 # Replace PATH_TO with correct path
 docker run --name babel-webpack-deco-demo --mount type=bind,source=PATH_TO\babel-webpack-demo\dist,target=/usr/share/nginx/html,readonly -p 9899:80 -d nginx
 ```
-- Do `npm i`
+- Do `npm ci`
 - Do `npm run build`
 - Open `http://localhost:9899` in browser
 
